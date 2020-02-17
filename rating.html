@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="center">
+      <div>
+        <img src="img/book.png" class="book" />
+      </div>
+      <div>
+        <p class="text-title mb-24">Como foi a ajuda do tutor?</p>
+      </div>
+      <div>
+        <embed src="img/star.svg" class="star ml-12" />
+        <embed src="img/star.svg" class="star ml-12" />
+        <embed src="img/star.svg" class="star ml-12" />
+        <embed src="img/star.svg" class="star ml-12" />
+        <embed src="img/star.svg" class="star ml-12" />
+      </div>
+      <div>
+        <button class="praise-btn praise-btn-text mt-36" onclick="submitRating()">
+          ELOGIAR
+        </button>
+      </div>
+      <div>
+        <button class="skip mt-95 mr-28">PULAR</button>
+        <button class="confirm confirm-text mt-86" onclick="onConfirm()">
+          CONFIRMAR
+        </button>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

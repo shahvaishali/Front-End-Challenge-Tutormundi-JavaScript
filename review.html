@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="getData()">
+    <section class="center">
+      <div>
+        <img src="img/book.png" class="book" />
+      </div>
+
+      <div>
+        <p class="text-title mb-24">Como foi a ajuda do tutor?</p>
+      </div>
+      <div>
+        <img src="img/star.svg" class="star ml-12" />
+        <img src="img/star.svg" class="star ml-12" />
+        <img src="img/star.svg" class="star ml-12" />
+        <img src="img/star.svg" class="star ml-12" />
+        <img src="img/star.svg" class="star ml-12" />
+      </div>
+      <div>
+        <p class="compliment-main-title mt-60">
+          Envie um elogio
+        </p>
+      </div>
+      <div id="figure"></div>
+      <div>
+        <p class="compliment-main-title">
+          Deixe um recado
+        </p>
+      </div>
+      <div>
+        <textarea class="compliment-msg "placeholder="Faça elogios, agradecimentos e sugestões. Os tutores adoram!"></textarea>
+      </div>
+      <div>
+        <button class="skip mr-28 mt-69">PULAR</button>
+        <button class="confirm confirm-text mt-60" onclick="onConfirm()">
+          CONFIRMAR
+        </button>
+      </div>
+    </section>
+    <script src="js/svg-data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+/* margin padding alignments */
+.mt-0 {
+  margin-top: 0px;
+}
+.mt-36 {
+  margin-top: 36px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-69 {
+  margin-top: 69px;
+}
+.mt-86 {
+  margin-top: 86px;
+}
+.mt-95 {
+  margin-top: 95px;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.ml-12 {
+  margin-left: 12px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mr-12 {
+  margin-right: 12px;
+}
+.mr-28 {
+  margin-right: 28px;
+}
+section.center div {
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+}
+/* end margin padding alignments */
+
+/* first screen style */
+.book {
+  width: 132.4px;
+  height: 150px;
+  margin: 101px 520.6px 24px 547px;
+}
+.text-title {
+  width: 292px;
+  height: 68px;
+  font-family: WorkSans;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -1.77px;
+  text-align: center;
+  color: #000000;
+}
+.star {
+  width: 31px;
+  height: 30px;
+  object-fit: contain;
+}
+.praise-btn {
+  width: 101px;
+  height: 34px;
+  border-radius: 100px;
+  border: solid 2px #2cc6d0;
+}
+.praise-btn-text {
+  font-family: WorkSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2cc6d0;
+}
+.confirm {
+  width: 149px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #2cc6d0;
+}
+.confirm-text {
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  border: none;
+}
+.skip {
+  width: 56px;
+  height: 24px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+}
+
+/* end first screen */
+
+/*second screen style */
+
+.compliment {
+  width: 88px;
+  height: 102px;
+  border-radius: 4px;
+  border: solid 2px #2cc6d0;
+  display: inline-block;
+}
+.icon {
+  margin: 18px 29px 6px;
+}
+.compliment-title {
+  margin: 0px 12px 18px;
+  width: 64px;
+  height: 24px;
+  font-family: WorkSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.83px;
+  text-align: center;
+  color: #2cc6d0;
+}
+.selected-figure {
+  width: 88px;
+  height: 102px;
+  border-radius: 4px;
+  border: solid 2px #2cc6d0;
+  background-color: #2cc6d0;
+}
+.compliment-main-title {
+  width: 144px;
+  height: 24px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.83px;
+  color: #000000;
+  margin-right: 23%;
+  margin-bottom: 12px;
+}
+.compliment-msg-title {
+  margin: 24px 0px 12px 0px;
+}
+.compliment-msg {
+  width: 504px;
+  height: 115px;
+  border-radius: 4px;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+::placeholder {
+  width: 447px;
+  height: 44px;
+  opacity: 0.1;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: -0.2px;
+  color: #000000;
+  padding: 11px 21px 60px 20px;
+}
+
+/* end of second screen style */
+
+/* media queries */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  textarea {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .compliment-main-title {
+    margin-right: 53%;
+  }
+  #figure {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .compliment-main-title {
+    margin-right: 60%;
+  }
+  #figure {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .compliment-main-title {
+    margin-right: 60%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .compliment-main-title {
+    margin-right: 49%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .compliment-main-title {
+    margin-right: 37%;
+  }
+}
+
+/* end of media query */
